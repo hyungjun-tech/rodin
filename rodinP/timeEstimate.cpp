@@ -8,6 +8,11 @@
 
 #define MINIMUM_PLANNER_SPEED 0.05// (mm/sec)
 
+// hjkim Test commit, 2021.10.25 test1
+// hjkim Test commit, 2021.10.25 test2
+// hjkim Test commit, 2021.10.25 test3
+// hjkim Test commit, 2021.10.25 test4
+
 /*
 const double max_feedrate[TimeEstimateCalculator::NUM_AXIS] = { 600, 600, 40, 25 };
 const double minimumfeedrate = 0.01;
