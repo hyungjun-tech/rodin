@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<profiles>
+  <standard>
+    <profile>
+      <name>PLA</name>
+      <description>PLA</description>
+      <fileLocation>profile_setting_value_PLA.ini</fileLocation>
+	    <visible>Y</visible>
+    </profile>
+    <profile>
+      <name>ASA</name>
+      <description>ASA</description>
+      <fileLocation>profile_setting_value_ASA.ini</fileLocation>
+	    <visible>Y</visible>
+    </profile>
+    <profile>
+      <name>ETC</name>
+      <description>ETC</description>
+      <fileLocation>profile_setting_value_ETC.ini</fileLocation>
+      <visible>N</visible>
+    </profile>
+  </standard>
+</profiles>

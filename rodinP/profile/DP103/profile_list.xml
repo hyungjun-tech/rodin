@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<profiles>
+  <standard>
+    <profile>
+      <name>Sindoh PLA</name>
+      <description>PLA by Sindoh</description>
+      <fileLocation>profile_setting_value_PLA.ini</fileLocation>
+	    <visible>Y</visible>
+    </profile>
+    <profile>
+      <name>Sindoh ABS</name>
+      <description>ABS by Sindoh</description>
+      <fileLocation>profile_setting_value_ABS.ini</fileLocation>
+	    <visible>Y</visible>
+    </profile>
+    <profile>
+      <name>ETC</name>
+      <description>ETC</description>
+      <fileLocation>profile_setting_value_ETC.ini</fileLocation>
+      <visible>N</visible>
+    </profile>
+  </standard>
+</profiles>

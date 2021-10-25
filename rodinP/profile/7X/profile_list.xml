@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<profiles>
+  <standard>
+    <profile>
+      <name>Sindoh PLA</name>
+      <description>PLA by Sindoh</description>
+      <fileLocation>profile_setting_value_PLA.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Sindoh ABS Side A</name>
+      <description>ABS Side A by Sindoh</description>
+      <fileLocation>profile_setting_value_ABS_SIDE_A.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Sindoh ABS Side B</name>
+      <description>ABS Side B by Sindoh</description>
+      <fileLocation>profile_setting_value_ABS_SIDE_B.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>ASA Side A</name>
+      <description>ASA Side A Profile</description>
+      <fileLocation>profile_setting_value_ASA_SIDE_A.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>ASA Side B</name>
+      <description>ASA Side B profile</description>
+      <fileLocation>profile_setting_value_ASA_SIDE_B.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Sindoh FLEXIBLE</name>
+      <description>FLEXIBLE by Sindoh</description>
+      <fileLocation>profile_setting_value_FLEX.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Sindoh PVA</name>
+      <description>PVA by Sindoh</description>
+      <fileLocation>profile_setting_value_PVA.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Sindoh PVA+</name>
+      <description>PVA+ by Sindoh</description>
+      <fileLocation>profile_setting_value_PVA+.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>ETC</name>
+      <description>ETC</description>
+      <fileLocation>profile_setting_value_ETC.ini</fileLocation>
+      <visible>N</visible>
+    </profile>
+  </standard>
+</profiles>

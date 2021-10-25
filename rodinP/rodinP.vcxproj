@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>QtVS_v301</Keyword>
+    <ProjectName>rodinP</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>qt5.9_64bit</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;uitools;widgets;printsupport;websockets;openglextensions;webengine;webenginewidgets</QtModules>
+    <QtDeploy>false</QtDeploy>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <QtInstall>qt5.9_64bit</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;uitools;widgets;printsupport;websockets;openglextensions;webengine;webenginewidgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>qt5.9_64bit</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;uitools;widgets;printsupport;websockets;openglextensions;webengine;webenginewidgets</QtModules>
+    <QtDeploy>false</QtDeploy>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <QtInstall>qt5.9_64bit</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;uitools;widgets;printsupport;websockets;openglextensions;webengine;webenginewidgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <TargetName>3DWOX_Desktop_x86</TargetName>
+    <OutDir>$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)IntermediateFiles\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <TargetName>3DWOX_Desktop_x64</TargetName>
+    <OutDir>$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)IntermediateFiles\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>3DWOX_Desktop_x86</TargetName>
+    <OutDir>$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)IntermediateFiles\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>3DWOX_Desktop_x64</TargetName>
+    <OutDir>$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)IntermediateFiles\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>x86_PLATFORM;UNICODE;WIN32;WIN64;QT_WEBKITWIDGETS_LIB;%(PreprocessorDefinitions);CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CGAL_HEADER_ONLY;_USE_MATH_DEFINES;NOMINMAX</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ShowIncludes>false</ShowIncludes>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalDependencies>WSnmp32.Lib;WS2_32.Lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/FORCE:multiple %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"
+xcopy /d /Y "$(ProjectDir)languages" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+xcopy /d /S /Y "$(ProjectDir)profile" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+xcopy /d /Y "$(ProjectDir)Shader" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"</Command>
+    </PostBuildEvent>
+    <QtMoc>
+      <DynamicSource>output</DynamicSource>
+      <ForceInclude>stdafx.h;../../../../%(Filename)%(Extension)</ForceInclude>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>%(Filename)</InitFuncName>
+      <Compression>default</Compression>
+      <NoCompression>true</NoCompression>
+    </QtRcc>
+    <QtUic />
+    <QtUic>
+      <ParallelProcess>true</ParallelProcess>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>x64_PLATFORM;QT_WEBKITWIDGETS_LIB;%(PreprocessorDefinitions);CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CGAL_HEADER_ONLY;_USE_MATH_DEFINES;NOMINMAX;DEBUG;UNICODE;_UNICODE;WIN32;WIN64</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport>true</OpenMPSupport>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WSnmp32.Lib;WS2_32.Lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalOptions>/FORCE:multiple  /SUBSYSTEM:CONSOLE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <QtMoc>
+      <DynamicSource>output</DynamicSource>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>%(Filename)</InitFuncName>
+      <Compression>default</Compression>
+      <NoCompression>true</NoCompression>
+    </QtRcc>
+    <QtUic />
+    <PostBuildEvent>
+      <Command>mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"
+xcopy /d /Y "$(ProjectDir)languages" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+xcopy /d /S /Y "$(ProjectDir)profile" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+xcopy /d /Y "$(ProjectDir)Shader" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>x86_PLATFORM;UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_WEBKITWIDGETS_LIB;%(PreprocessorDefinitions);CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CGAL_HEADER_ONLY;_USE_MATH_DEFINES;NOMINMAX</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>WSnmp32.Lib;WS2_32.Lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/FORCE:multiple %(AdditionalOptions)</AdditionalOptions>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"
+xcopy /d /Y "$(ProjectDir)languages" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+xcopy /d /S /Y "$(ProjectDir)profile" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+xcopy /d /Y "$(ProjectDir)Shader" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"</Command>
+    </PostBuildEvent>
+    <QtMoc>
+      <DynamicSource>output</DynamicSource>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>%(Filename)</InitFuncName>
+      <Compression>default</Compression>
+      <NoCompression>true</NoCompression>
+    </QtRcc>
+    <QtUic />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>x64_PLATFORM;NDEBUG;QT_NO_DEBUG;QT_WEBKITWIDGETS_LIB;%(PreprocessorDefinitions);CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CGAL_HEADER_ONLY;_USE_MATH_DEFINES;NOMINMAX;UNICODE;_UNICODE;WIN32;WIN64</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>WSnmp32.Lib;WS2_32.Lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/FORCE:multiple %(AdditionalOptions)</AdditionalOptions>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <QtMoc>
+      <DynamicSource>output</DynamicSource>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>%(Filename)</InitFuncName>
+      <Compression>default</Compression>
+      <NoCompression>true</NoCompression>
+    </QtRcc>
+    <QtUic />
+    <PostBuildEvent>
+      <Command>mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+mkdir "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"
+xcopy /d /Y "$(ProjectDir)languages" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\languages"
+xcopy /d /S /Y "$(ProjectDir)profile" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\profile"
+xcopy /d /Y "$(ProjectDir)Shader" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Shader"
+xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configuration)\Mesh"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="AddIPAddress.cpp" />
+    <ClCompile Include="AddMyPrinter.cpp" />
+    <ClCompile Include="AnalysisUIMode.cpp" />
+    <ClCompile Include="AppInfo.cpp" />
+    <ClCompile Include="AuthentificationDlg.cpp" />
+    <ClCompile Include="BufferRenderer.cpp" />
+    <ClCompile Include="CameraModule.cpp" />
+    <ClCompile Include="CartridgeDialog.cpp" />
+    <ClCompile Include="CartridgeInfo.cpp" />
+    <ClCompile Include="ColoredLayerDialog.cpp" />
+    <ClCompile Include="ConnectionControl.cpp" />
+    <ClCompile Include="ContextMenu.cpp" />
+    <ClCompile Include="Cryptopp.cpp" />
+    <ClCompile Include="CustomProfileEditor.cpp" />
+    <ClCompile Include="CustomProfileList.cpp" />
+    <ClCompile Include="ExperimentalFunctions.cpp" />
+    <ClCompile Include="FileCopier.cpp" />
+    <ClCompile Include="FileTransfer.cpp" />
+    <ClCompile Include="FindPrinterInfo.cpp" />
+    <ClCompile Include="GCodeGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GCodeParser.cpp" />
+    <ClCompile Include="GCodePath.cpp" />
+    <ClCompile Include="Generals.cpp" />
+    <ClCompile Include="InfillVoxel.cpp" />
+    <ClCompile Include="LayerColorPlane.cpp" />
+    <ClCompile Include="LayerColorUIMode.cpp" />
+    <ClCompile Include="LayerDatasSet.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="MeshExporter.cpp" />
+    <ClCompile Include="MeshModelCalculator.cpp" />
+    <ClCompile Include="ModelDataStorage.cpp" />
+    <ClCompile Include="CommonWidgets.cpp" />
+    <ClCompile Include="NewCustomProfile.cpp" />
+    <ClCompile Include="polygon.cpp" />
+    <ClCompile Include="PolygonLayer.cpp" />
+    <ClCompile Include="PreviewThumbnailDialog.cpp" />
+    <ClCompile Include="PrintControl.cpp" />
+    <ClCompile Include="PrinterInfo.cpp" />
+    <ClCompile Include="clipper.cpp" />
+    <ClCompile Include="comb.cpp" />
+    <ClCompile Include="CommonDialog.cpp" />
+    <ClCompile Include="Communication.cpp" />
+    <ClCompile Include="EditStartEndcodeDlg.cpp" />
+    <ClCompile Include="gcodeExport.cpp" />
+    <ClCompile Include="PrintingInfo.cpp" />
+    <ClCompile Include="PrintOptimum.cpp" />
+    <ClCompile Include="ProfileData.cpp" />
+    <ClCompile Include="ProfileToConfig.cpp" />
+    <ClCompile Include="ProgressHandler.cpp" />
+    <ClCompile Include="SearchPrinter.cpp" />
+    <ClCompile Include="SliceCalculator.cpp" />
+    <ClCompile Include="SliceProcessor.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SupportData.cpp" />
+    <ClCompile Include="SupportEditPlane.cpp" />
+    <ClCompile Include="BottomSurfaceManager.cpp" />
+    <ClCompile Include="ChangeBottomUIMode.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="FBO.cpp" />
+    <ClCompile Include="GLBufferCreator.cpp" />
+    <ClCompile Include="IOManager.cpp" />
+    <ClCompile Include="ManipulatedFrame.cpp" />
+    <ClCompile Include="ManipulatorHandle.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshLoader.cpp" />
+    <ClCompile Include="MeshModel.cpp" />
+    <ClCompile Include="MFSetConstraint.cpp" />
+    <ClCompile Include="ModelContainer.cpp" />
+    <ClCompile Include="MVPMatrices.cpp" />
+    <ClCompile Include="PickingIdxManager.cpp" />
+    <ClCompile Include="PreviewUIMode.cpp" />
+    <ClCompile Include="PrinterBody.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RotateUIMode.cpp" />
+    <ClCompile Include="SaveFileUIMode.cpp" />
+    <ClCompile Include="ScaledFrame.cpp" />
+    <ClCompile Include="SupportUIMode.cpp" />
+    <ClCompile Include="TopCamera.cpp" />
+    <ClCompile Include="TranslateUIMode.cpp" />
+    <ClCompile Include="UIMode.cpp" />
+    <ClCompile Include="UserProperties.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="ViewerModule.cpp" />
+    <ClCompile Include="VolumeAnalysis.cpp" />
+    <ClCompile Include="infill.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="InformationDialog.cpp" />
+    <ClCompile Include="MachineProfile.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModelMatchList.cpp" />
+    <ClCompile Include="OptimizedDialog.cpp" />
+    <ClCompile Include="PrintConfirm.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="ProfileControl.cpp" />
+    <ClCompile Include="ProfileSettingComponents.cpp" />
+    <ClCompile Include="ProfileSettingMultiDlg.cpp" />
+    <ClCompile Include="ProfileSettingWidget.cpp" />
+    <ClCompile Include="qcustomplot.cpp" />
+    <ClCompile Include="SelectCartridgeDialog.cpp" />
+    <ClCompile Include="SelectCartridgePopDialog.cpp" />
+    <ClCompile Include="SelectModelDialog.cpp" />
+    <ClCompile Include="ShortcutInfoDialog.cpp" />
+    <ClCompile Include="SliceProfileForCommon.cpp" />
+    <ClCompile Include="snmpControl.cpp" />
+    <ClCompile Include="ConvexHullStatic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp" />
+    <ClCompile Include="VolumAnalysisDialog.cpp" />
+    <ClCompile Include="MoveDialog.cpp" />
+    <ClCompile Include="MultiplyDialog.cpp" />
+    <ClCompile Include="MyPrinters.cpp" />
+    <ClCompile Include="pathOrderOptimizer.cpp" />
+    <ClCompile Include="polygonOptimizer.cpp" />
+    <ClCompile Include="ProfileSettingEasymodeDlg.cpp" />
+    <ClCompile Include="ProfileSettingMachineDlg.cpp" />
+    <ClCompile Include="rodinP.cpp" />
+    <ClCompile Include="RotationDialog.cpp" />
+    <ClCompile Include="ScaleDialog.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="SliceProfile.cpp" />
+    <ClCompile Include="timeEstimate.cpp" />
+    <ClCompile Include="USBCommunication.cpp" />
+    <ClCompile Include="WebControl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="rodinP.h">
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="PreviewThumbnailDialog.ui" />
+    <QtUic Include="rodinP.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="WebControl.h" />
+    <QtMoc Include="AddIPAddress.h">
+    </QtMoc>
+    <QtMoc Include="AddMyPrinter.h">
+    </QtMoc>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="AnalysisUIMode.h" />
+    <ClInclude Include="AppInfo.h" />
+    <QtMoc Include="AuthentificationDlg.h">
+    </QtMoc>
+    <QtMoc Include="CartridgeDialog.h">
+    </QtMoc>
+    <QtMoc Include="FindPrinterInfo.h">
+    </QtMoc>
+    <QtMoc Include="ColoredLayerDialog.h">
+    </QtMoc>
+    <ClInclude Include="BufferRenderer.h" />
+    <ClInclude Include="CameraModule.h" />
+    <ClInclude Include="CartridgeInfo.h" />
+    <QtMoc Include="CustomProfileEditor.h">
+    </QtMoc>
+    <QtMoc Include="CustomProfileList.h">
+    </QtMoc>
+    <QtMoc Include="CommonMessages.h" />
+    <ClInclude Include="ConnectionControl.h" />
+    <QtMoc Include="ContextMenu.h" />
+    <ClInclude Include="Cryptopp.h" />
+    <QtMoc Include="GCodeGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </QtMoc>
+    <QtMoc Include="FileTransfer.h" />
+    <ClInclude Include="ExperimentalFunctions.h" />
+    <ClInclude Include="FileCopier.h" />
+    <ClInclude Include="GCodeParser.h" />
+    <ClInclude Include="GCodePath.h" />
+    <ClInclude Include="Generals.h" />
+    <ClInclude Include="LayerColorPlane.h" />
+    <ClInclude Include="LayerColorUIMode.h" />
+    <ClInclude Include="LayerDatasSet.h" />
+    <ClInclude Include="InfillVoxel.h" />
+    <ClInclude Include="linearAlg2D.h" />
+    <CustomBuild Include="Logger.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+    <QtMoc Include="NewCustomProfile.h">
+    </QtMoc>
+    <ClInclude Include="MeshExporter.h" />
+    <ClInclude Include="MeshModelCalculator.h" />
+    <ClInclude Include="ModelDataStorage.h" />
+    <QtMoc Include="CommonWidgets.h" />
+    <ClInclude Include="PolygonLayer.h" />
+    <QtMoc Include="PreviewThumbnailDialog.h" />
+    <ClInclude Include="PrinterInfo.h" />
+    <ClInclude Include="clipper.hpp" />
+    <ClInclude Include="comb.h" />
+    <QtMoc Include="EditStartEndcodeDlg.h">
+    </QtMoc>
+    <QtMoc Include="CommonDialog.h">
+    </QtMoc>
+    <ClInclude Include="Communication.h" />
+    <ClInclude Include="CommunicationInterface.h" />
+    <ClInclude Include="floatpoint.h" />
+    <CustomBuild Include="gcodeExport.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+    <ClInclude Include="PrintingInfo.h" />
+    <QtMoc Include="PrintOptimum.h" />
+    <QtMoc Include="SliceProcessor.h" />
+    <QtMoc Include="ProgressHandler.h" />
+    <ClInclude Include="ProfileData.h" />
+    <QtMoc Include="SearchPrinter.h" />
+    <ClInclude Include="SliceCalculator.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SupportData.h" />
+    <ClInclude Include="BottomSurfaceManager.h" />
+    <ClInclude Include="ChangeBottomUIMode.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Coords.h" />
+    <ClInclude Include="FBO.h" />
+    <ClInclude Include="GLBufferCreator.h" />
+    <ClInclude Include="IOManager.h" />
+    <ClInclude Include="SupportEditPlane.h" />
+    <ClInclude Include="TopCamera.h" />
+    <ClInclude Include="ManipulatedFrame.h" />
+    <ClInclude Include="ManipulatorHandle.h" />
+    <ClInclude Include="MatrixGetter.h" />
+    <ClInclude Include="Mesh.h" />
+    <QtMoc Include="MeshLoader.h" />
+    <QtMoc Include="MeshModel.h" />
+    <ClInclude Include="MFSetConstraint.h" />
+    <QtMoc Include="ModelContainer.h" />
+    <ClInclude Include="MVPMatrices.h" />
+    <ClInclude Include="PickingIdxManager.h" />
+    <ClInclude Include="PreviewUIMode.h" />
+    <ClInclude Include="PrinterBody.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RotateUIMode.h" />
+    <ClInclude Include="SaveFileUIMode.h" />
+    <ClInclude Include="ScaledFrame.h" />
+    <ClInclude Include="SupportUIMode.h" />
+    <ClInclude Include="TranslateUIMode.h" />
+    <QtMoc Include="UIMode.h" />
+    <ClInclude Include="UserProperties.h" />
+    <ClInclude Include="VAO.h" />
+    <QtMoc Include="ViewerModule.h" />
+    <ClInclude Include="VolumeAnalysis.h" />
+    <ClInclude Include="infill.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <QtMoc Include="InformationDialog.h">
+    </QtMoc>
+    <ClInclude Include="intpoint.h" />
+    <ClInclude Include="MachineProfile.h" />
+    <QtMoc Include="VolumAnalysisDialog.h">
+    </QtMoc>
+    <QtMoc Include="MoveDialog.h">
+    </QtMoc>
+    <QtMoc Include="MultiplyDialog.h">
+    </QtMoc>
+    <QtMoc Include="MyPrinters.h">
+    </QtMoc>
+    <QtMoc Include="OptimizedDialog.h">
+    </QtMoc>
+    <ClInclude Include="ModelMatchList.h" />
+    <ClInclude Include="pathOrderOptimizer.h" />
+    <ClInclude Include="polygon.h" />
+    <ClInclude Include="polygonOptimizer.h" />
+    <QtMoc Include="ProfileSettingEasymodeDlg.h">
+    </QtMoc>
+    <QtMoc Include="ProfileSettingMachineDlg.h">
+    </QtMoc>
+    <QtMoc Include="PrintControl.h">
+    </QtMoc>
+    <QtMoc Include="PrintConfirm.h">
+    </QtMoc>
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="ProfileControl.h" />
+    <QtMoc Include="ProfileSettingMultiDlg.h">
+    </QtMoc>
+    <QtMoc Include="ProfileSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="ProfileSettingComponents.h">
+    </QtMoc>
+    <ClInclude Include="ProfileToConfig.h" />
+    <QtMoc Include="qcustomplot.h">
+    </QtMoc>
+    <QtMoc Include="RotationDialog.h">
+    </QtMoc>
+    <QtMoc Include="ScaleDialog.h">
+    </QtMoc>
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="SelectCartridgeDialog.h">
+    </QtMoc>
+    <QtMoc Include="SelectModelDialog.h">
+    </QtMoc>
+    <QtMoc Include="SelectCartridgePopDialog.h">
+    </QtMoc>
+    <ClInclude Include="settings.h" />
+    <QtMoc Include="ShortcutInfoDialog.h">
+    </QtMoc>
+    <ClInclude Include="SliceProfile.h" />
+    <ClInclude Include="SliceProfileForCommon.h" />
+    <ClInclude Include="snmpControl.h" />
+    <ClInclude Include="ConvexHullStatic.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="stringcasecompare.h" />
+    <QtMoc Include="Switch.h">
+    </QtMoc>
+    <ClInclude Include="timeEstimate.h" />
+    <ClInclude Include="USBCommunication.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="rodinP.qrc">
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ProfileSettingEasymodeDlg.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="ProfileSettingMachineDlg.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="MoveDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="EditStartEndcodeDlg.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="AddIPAddress.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="AddMyPrinter.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="MultiplyDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="VolumAnalysisDialog.ui">
+    </QtUic>
+    <QtUic Include="MyPrinters.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="InformationDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="CommonDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="AuthentificationDlg.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="CartridgeDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="ColoredLayerDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="CustomProfileEditor.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="CustomProfileList.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <None Include="languages\rodinp_da.qm" />
+    <None Include="languages\rodinp_de.qm" />
+    <None Include="languages\rodinp_en.qm" />
+    <None Include="languages\rodinp_es.qm" />
+    <None Include="languages\rodinp_fr.qm" />
+    <None Include="languages\rodinp_ja.qm" />
+    <None Include="languages\rodinp_ko.qm" />
+    <None Include="languages\rodinp_zh.qm" />
+    <QtUic Include="OptimizedDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="PrintConfirm.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="ProfileSettingMultiDlg.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="ProfileSettingWidget.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="NewCustomProfile.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <None Include="packages.config" />
+    <None Include="profile\1X DP302\list.ini" />
+    <None Include="profile\1X DP302\machine_setting_value.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\1X DP302\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\1X DP302\profile_setting_value_ABS.ini" />
+    <None Include="profile\1X DP302\profile_setting_value_ETC.ini" />
+    <None Include="profile\1X DP302\profile_setting_value_FLEX.ini" />
+    <None Include="profile\1X DP302\profile_setting_value_PLA.ini" />
+    <None Include="profile\1X DP302\profile_start_end_code.ini" />
+    <None Include="profile\1X\list.ini" />
+    <None Include="profile\1X\machine_setting_value.ini" />
+    <None Include="profile\1X\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\1X\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\1X\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\1X\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\1X\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\1X\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\1X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\1X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\1X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\1X\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\1X\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\1X\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\1X\profile_setting_value_ABS.ini" />
+    <None Include="profile\1X\profile_setting_value_ETC.ini" />
+    <None Include="profile\1X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\1X\profile_setting_value_PLA.ini" />
+    <None Include="profile\1X\profile_start_end_code.ini" />
+    <None Include="profile\2X DP303\list.ini" />
+    <None Include="profile\2X DP303\machine_setting_value.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_ABS.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_ETC.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_FLEX.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_PLA.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_PVA+.ini" />
+    <None Include="profile\2X DP303\profile_setting_value_PVA.ini" />
+    <None Include="profile\2X DP303\profile_start_end_code.ini" />
+    <None Include="profile\2X\list.ini" />
+    <None Include="profile\2X\machine_setting_value.ini" />
+    <None Include="profile\2X\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\2X\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\2X\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\2X\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\2X\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\2X\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\2X\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\2X\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\2X\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\2X\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\2X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\2X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\2X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\2X\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\2X\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\2X\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\2X\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\2X\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\2X\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\2X\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\2X\profile_setting_value_ABS.ini" />
+    <None Include="profile\2X\profile_setting_value_ETC.ini" />
+    <None Include="profile\2X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\2X\profile_setting_value_PLA.ini" />
+    <None Include="profile\2X\profile_setting_value_PVA+.ini" />
+    <None Include="profile\2X\profile_setting_value_PVA.ini" />
+    <None Include="profile\2X\profile_start_end_code.ini" />
+    <None Include="profile\30X\list.ini" />
+    <None Include="profile\30X\machine_setting_value.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_ASA.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\30X\profile_setting_easy_normal_TPU.ini" />
+    <None Include="profile\30X\profile_setting_value_ABS_SIDE_A.ini" />
+    <None Include="profile\30X\profile_setting_value_ABS_SIDE_B.ini" />
+    <None Include="profile\30X\profile_setting_value_ASA.ini" />
+    <None Include="profile\30X\profile_setting_value_ETC.ini" />
+    <None Include="profile\30X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\30X\profile_setting_value_PLA.ini" />
+    <None Include="profile\30X\profile_setting_value_PVA+.ini" />
+    <None Include="profile\30X\profile_setting_value_PVA.ini" />
+    <None Include="profile\30X\profile_setting_value_TPU.ini" />
+    <None Include="profile\30X\profile_start_end_code.ini" />
+    <None Include="profile\3DFF-222\list.ini" />
+    <None Include="profile\3DFF-222\machine_setting_value.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_fast_ASA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_fine_ASA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_normal_ASA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_silent_ASA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_value_ASA.ini" />
+    <None Include="profile\3DFF-222\profile_setting_value_ETC.ini" />
+    <None Include="profile\3DFF-222\profile_setting_value_PLA.ini" />
+    <None Include="profile\3DFF-222\profile_start_end_code.ini" />
+    <None Include="profile\3DWOX 1\list.ini" />
+    <None Include="profile\3DWOX 1\machine_setting_value.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_value_ABS.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_value_ETC.ini" />
+    <None Include="profile\3DWOX 1\profile_setting_value_PLA.ini" />
+    <None Include="profile\3DWOX 1\profile_start_end_code.ini" />
+    <None Include="profile\5X\list.ini" />
+    <None Include="profile\5X\machine_setting_value.ini" />
+    <None Include="profile\5X\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\5X\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\5X\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\5X\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\5X\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\5X\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\5X\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\5X\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\5X\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\5X\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\5X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\5X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\5X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\5X\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\5X\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\5X\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\5X\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\5X\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\5X\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\5X\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\5X\profile_setting_value_ABS.ini" />
+    <None Include="profile\5X\profile_setting_value_ABS_SIDE_A.ini" />
+    <None Include="profile\5X\profile_setting_value_ABS_SIDE_B.ini" />
+    <None Include="profile\5X\profile_setting_value_ETC.ini" />
+    <None Include="profile\5X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\5X\profile_setting_value_PLA.ini" />
+    <None Include="profile\5X\profile_setting_value_PVA+.ini" />
+    <None Include="profile\5X\profile_setting_value_PVA.ini" />
+    <None Include="profile\5X\profile_start_end_code.ini" />
+    <None Include="profile\7X\list.ini" />
+    <None Include="profile\7X\machine_setting_value.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_ASA.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\7X\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_ASA.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\7X\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_ASA.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\7X\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_ASA.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\7X\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\7X\profile_setting_value_ABS.ini" />
+    <None Include="profile\7X\profile_setting_value_ABS_SIDE_A.ini" />
+    <None Include="profile\7X\profile_setting_value_ABS_SIDE_B.ini" />
+    <None Include="profile\7X\profile_setting_value_ASA.ini" />
+    <None Include="profile\7X\profile_setting_value_ASA_SIDE_A.ini" />
+    <None Include="profile\7X\profile_setting_value_ASA_SIDE_B.ini" />
+    <None Include="profile\7X\profile_setting_value_ETC.ini" />
+    <None Include="profile\7X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\7X\profile_setting_value_PLA.ini" />
+    <None Include="profile\7X\profile_setting_value_PVA+.ini" />
+    <None Include="profile\7X\profile_setting_value_PVA.ini" />
+    <None Include="profile\7X\profile_start_end_code.ini" />
+    <None Include="profile\DP101\list.ini" />
+    <None Include="profile\DP101\machine_setting_value.ini" />
+    <None Include="profile\DP101\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP101\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP101\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP101\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP101\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP101\profile_start_end_code.ini" />
+    <None Include="profile\DP102\list.ini" />
+    <None Include="profile\DP102\machine_setting_value.ini" />
+    <None Include="profile\DP102\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\DP102\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP102\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\DP102\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP102\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\DP102\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP102\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\DP102\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP102\profile_setting_value_ABS.ini" />
+    <None Include="profile\DP102\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP102\profile_start_end_code.ini" />
+    <None Include="profile\DP103\list.ini" />
+    <None Include="profile\DP103\machine_setting_value.ini" />
+    <None Include="profile\DP103\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\DP103\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP103\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\DP103\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP103\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\DP103\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP103\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\DP103\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP103\profile_setting_value_ABS.ini" />
+    <None Include="profile\DP103\profile_setting_value_ETC.ini" />
+    <None Include="profile\DP103\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP103\profile_start_end_code.ini" />
+    <None Include="profile\DP200\list.ini" />
+    <None Include="profile\DP200\machine_setting_value.ini" />
+    <None Include="profile\DP200\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\DP200\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP200\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\DP200\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP200\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\DP200\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP200\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\DP200\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP200\profile_setting_value_ABS.ini" />
+    <None Include="profile\DP200\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP200\profile_start_end_code.ini" />
+    <None Include="profile\DP201\list.ini" />
+    <None Include="profile\DP201\machine_setting_value.ini" />
+    <None Include="profile\DP201\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP201\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP201\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP201\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP201\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP201\profile_start_end_code.ini" />
+    <None Include="profile\DP202\list.ini" />
+    <None Include="profile\DP202\machine_setting_value.ini" />
+    <None Include="profile\DP202\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP202\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP202\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP202\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP202\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP202\profile_start_end_code.ini" />
+    <None Include="profile\DP203\list.ini" />
+    <None Include="profile\DP203\machine_setting_value.ini" />
+    <None Include="profile\DP203\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\DP203\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\DP203\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\DP203\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\DP203\profile_setting_value_PLA.ini" />
+    <None Include="profile\DP203\profile_start_end_code.ini" />
+    <None Include="profile\F1 ECO\list.ini" />
+    <None Include="profile\F1 ECO\machine_setting_value.ini" />
+    <None Include="profile\F1 ECO\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\F1 ECO\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\F1 ECO\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\F1 ECO\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\F1 ECO\profile_setting_value_PLA.ini" />
+    <None Include="profile\F1 ECO\profile_start_end_code.ini" />
+    <None Include="profile\LION2X\list.ini" />
+    <None Include="profile\LION2X\machine_setting_value.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\LION2X\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\LION2X\profile_setting_value_ABS.ini" />
+    <None Include="profile\LION2X\profile_setting_value_ETC.ini" />
+    <None Include="profile\LION2X\profile_setting_value_FLEX.ini" />
+    <None Include="profile\LION2X\profile_setting_value_PLA.ini" />
+    <None Include="profile\LION2X\profile_setting_value_PVA+.ini" />
+    <None Include="profile\LION2X\profile_setting_value_PVA.ini" />
+    <None Include="profile\LION2X\profile_start_end_code.ini" />
+    <None Include="profile\LION2\list.ini" />
+    <None Include="profile\LION2\machine_setting_value.ini" />
+    <None Include="profile\LION2\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\LION2\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\LION2\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\LION2\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\LION2\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\LION2\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\LION2\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\LION2\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\LION2\profile_setting_value_ABS.ini" />
+    <None Include="profile\LION2\profile_setting_value_ETC.ini" />
+    <None Include="profile\LION2\profile_setting_value_PLA.ini" />
+    <None Include="profile\LION2\profile_start_end_code.ini" />
+    <QtUic Include="RotationDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="ScaleDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <None Include="profile\MICHELAN-P\list.ini" />
+    <None Include="profile\MICHELAN-P\machine_setting_value.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_value_ABS.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_value_ETC.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_value_FLEX.ini" />
+    <None Include="profile\MICHELAN-P\profile_setting_value_PLA.ini" />
+    <None Include="profile\MICHELAN-P\profile_start_end_code.ini" />
+    <None Include="profile\RIZE 2XC\list.ini" />
+    <None Include="profile\RIZE 2XC\machine_setting_value.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZCB.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZGF.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZSU.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZCB.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZGF.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZSU.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZCB.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZGF.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZSU.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZCB.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZGF.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZSU.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_ABS.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_ETC.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_FLEX.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_PLA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_PVA+.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_PVA.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZCB.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZGF.ini" />
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZSU.ini" />
+    <None Include="profile\RIZE 2XC\profile_start_end_code.ini" />
+    <None Include="profile\RIZE 7XC\list.ini" />
+    <None Include="profile\RIZE 7XC\machine_setting_value.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_ASA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_FLEX.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PVA+.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PVA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZCB.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZGF.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZSU.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_ASA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_FLEX.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PVA+.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PVA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZCB.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZGF.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZSU.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_ASA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_FLEX.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PVA+.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PVA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZCB.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZGF.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZSU.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_ASA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_FLEX.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PVA+.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PVA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZCB.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZGF.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZSU.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS_SIDE_A.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS_SIDE_B.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA_SIDE_A.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA_SIDE_B.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_ETC.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_FLEX.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_PLA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_PVA+.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_PVA.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZCB.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZGF.ini" />
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZSU.ini" />
+    <None Include="profile\RIZE 7XC\profile_start_end_code.ini" />
+    <None Include="profile\ST3DP1\list.ini" />
+    <None Include="profile\ST3DP1\machine_setting_value.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_fast_ABS.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_fast_PLA.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_fine_ABS.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_fine_PLA.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_normal_ABS.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_normal_PLA.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_silent_ABS.ini" />
+    <None Include="profile\ST3DP1\profile_setting_easy_silent_PLA.ini" />
+    <None Include="profile\ST3DP1\profile_setting_value_ABS.ini" />
+    <None Include="profile\ST3DP1\profile_setting_value_PLA.ini" />
+    <None Include="profile\ST3DP1\profile_start_end_code.ini" />
+    <None Include="rodinp_da.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_de.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_en.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_es.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_fr.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_ja.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_ko.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rodinp_zh.ts">
+      <SubType>Designer</SubType>
+    </None>
+    <QtUic Include="ShortcutInfoDialog.ui">
+    </QtUic>
+    <QtUic Include="SelectCartridgeDialog.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="SelectModelDialog.ui">
+    </QtUic>
+    <QtUic Include="SelectCartridgePopDialog.ui">
+    </QtUic>
+    <None Include="Shader\outline.frag" />
+    <None Include="Shader\outline.vert" />
+    <None Include="Shader\phong.frag" />
+    <None Include="Shader\phong.vert" />
+    <None Include="testModel.stl" />
+    <None Include="testModel2.stl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rodinP.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="profile\1X DP302\profile_list.xml" />
+    <Xml Include="profile\1X\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\2X DP303\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\2X\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\30X\profile_list.xml" />
+    <Xml Include="profile\3DFF-222\profile_list.xml" />
+    <Xml Include="profile\3DWOX 1\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\5X\profile_list.xml" />
+    <Xml Include="profile\7X\profile_list.xml" />
+    <Xml Include="profile\DP101\profile_list.xml" />
+    <Xml Include="profile\DP102\profile_list.xml" />
+    <Xml Include="profile\DP103\profile_list.xml" />
+    <Xml Include="profile\DP200\profile_list.xml" />
+    <Xml Include="profile\DP201\profile_list.xml" />
+    <Xml Include="profile\DP202\profile_list.xml" />
+    <Xml Include="profile\DP203\profile_list.xml" />
+    <Xml Include="profile\F1 ECO\profile_list.xml" />
+    <Xml Include="profile\LION2X\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\LION2\profile_list.xml" />
+    <Xml Include="profile\MICHELAN-P\profile_list.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="profile\RIZE 2XC\profile_list.xml" />
+    <Xml Include="profile\RIZE 7XC\profile_list.xml" />
+    <Xml Include="profile\ST3DP1\profile_list.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\rodin_library.1.3.0\build\native\rodin_library.targets" Condition="Exists('..\packages\rodin_library.1.3.0\build\native\rodin_library.targets')" />
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\rodin_library.1.3.0\build\native\rodin_library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rodin_library.1.3.0\build\native\rodin_library.targets'))" />
+  </Target>
+</Project>

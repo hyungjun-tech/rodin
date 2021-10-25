@@ -1,0 +1,2524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5abb7d94-2e54-4d11-8f27-bf8e182cfeb0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ff3991a2-dbf0-469e-ac39-fec7e38491ba}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{86cd6157-1c92-43af-8ed9-23b32c4407dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{25ed7b51-0e69-4388-8c17-e7b0cefab640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{ec6a4f4b-d45d-4ded-8e77-d98183cf0de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Profile Setting Files">
+      <UniqueIdentifier>{666d7492-5728-41c3-866e-a6adf0a57db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP200">
+      <UniqueIdentifier>{2e7c7b8c-864b-4dc6-bf56-baa0ca511711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP201">
+      <UniqueIdentifier>{95c811c0-6c73-4823-bf72-458a420cb8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f3c668c4-1577-47e4-bc30-b77681651637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP102">
+      <UniqueIdentifier>{dd2790da-0aeb-4fca-8598-7b4129b4721e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP202">
+      <UniqueIdentifier>{f2cb0714-cf68-4207-8d6a-0df3f7fc0abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\2X">
+      <UniqueIdentifier>{8fddffb3-321b-4e6c-9458-6a315227b458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\2X DP303">
+      <UniqueIdentifier>{61eccd23-debd-4a9a-9226-68a1851dfe18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\LION2">
+      <UniqueIdentifier>{b5bbb35f-783b-45e5-8e5e-1407cc006ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\F1 ECO">
+      <UniqueIdentifier>{d91a9872-eb3b-4c77-8620-4705efc0b41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP101">
+      <UniqueIdentifier>{bd9b1b09-88c5-42df-94b2-89fdcf5b4287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\3DWOX 1">
+      <UniqueIdentifier>{82ac6674-1ed3-46bd-8a6c-1595381604e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\LION2X">
+      <UniqueIdentifier>{84e69400-5206-416b-af72-7268840d232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\1X">
+      <UniqueIdentifier>{2df5e448-e9f8-43e5-ad43-ac2390651944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\1X DP302">
+      <UniqueIdentifier>{f6e06fc8-281b-4186-a482-65034d9932f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\5X">
+      <UniqueIdentifier>{bbc8f1ad-4cac-4365-ae1c-cb89563a1721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\7X">
+      <UniqueIdentifier>{1cef9c45-9533-4faf-b7c6-9c2ce1a5eb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\3DFF-222">
+      <UniqueIdentifier>{d7f77569-3f54-4790-ad45-b10f12d9c17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP103">
+      <UniqueIdentifier>{0613ad5b-5a01-4fa7-8696-f0bf7d3a52c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\DP203">
+      <UniqueIdentifier>{3c4a8cfa-7f7b-47d8-854a-915f60c30657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{27f71bff-7463-4e09-abf4-0c6703bcc01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{85788358-8bda-4177-b098-cf5dd11da088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\30X">
+      <UniqueIdentifier>{22b33884-0ba2-4114-b6f8-867cdba6ee7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\RIZE 2XC">
+      <UniqueIdentifier>{3799e46b-dc24-431a-a3b3-07c090076e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\RIZE 7XC">
+      <UniqueIdentifier>{22f5a2f0-9492-4cf8-9a97-fd954fbca37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\MICHELAN-P">
+      <UniqueIdentifier>{a29bef21-b17e-4cc3-98c0-578bb5da2011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile Setting Files\ST3DP1">
+      <UniqueIdentifier>{558de7eb-c93b-43f2-8d43-d492ba9e870c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rodinP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="comb.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="gcodeExport.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="infill.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="pathOrderOptimizer.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonOptimizer.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="timeEstimate.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileSettingEasymodeDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileSettingMachineDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="EditStartEndcodeDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="AddIPAddress.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMyPrinter.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPrinters.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplyDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Communication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USBCommunication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumAnalysisDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="snmpControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizedDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="qcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutInfoDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMatchList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfillVoxel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceProfileForCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPrinterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCartridgeDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectModelDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileSettingMultiDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCartridgePopDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredLayerDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Generals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CartridgeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CartridgeDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileSettingWidget.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCustomProfile.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomProfileList.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomProfileEditor.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileSettingComponents.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDatasSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintOptimum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthentificationDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptopp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDataStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCodePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportEditPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCodeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintingInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerColorUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerColorPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonWidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewThumbnailDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModelCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalysisUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomSurfaceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeBottomUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexHullStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLBufferCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManipulatedFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManipulatorHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFSetConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MVPMatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingIdxManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFileUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaledFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateUIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewerModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintConfirm.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="WebControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileToConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperimentalFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="rodinP.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtUic Include="rodinP.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtRcc Include="rodinP.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <CustomBuild Include="gcodeExport.h">
+      <Filter>Header Files\engine</Filter>
+    </CustomBuild>
+    <QtUic Include="ProfileSettingEasymodeDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ProfileSettingMachineDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="ProfileSettingEasymodeDlg.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ProfileSettingMachineDlg.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="RotationDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="RotationDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ScaleDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="ScaleDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MoveDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="MoveDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EditStartEndcodeDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="EditStartEndcodeDlg.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="AddIPAddress.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="AddMyPrinter.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="MyPrinters.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="AddIPAddress.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AddMyPrinter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MyPrinters.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MultiplyDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MultiplyDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="VolumAnalysisDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="VolumAnalysisDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="OptimizedDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="OptimizedDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="qcustomplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtUic Include="InformationDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="InformationDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="ShortcutInfoDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="ShortcutInfoDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="SelectCartridgeDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CartridgeDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <CustomBuild Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <QtUic Include="SelectModelDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="FindPrinterInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SelectCartridgeDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="SelectModelDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ProfileSettingMultiDlg.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="ProfileSettingMultiDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SelectCartridgePopDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="SelectCartridgePopDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ColoredLayerDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="ColoredLayerDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="Switch.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CartridgeDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="ProfileSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="ProfileSettingWidget.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="CustomProfileEditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="NewCustomProfile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="NewCustomProfile.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="CustomProfileList.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="CustomProfileList.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomProfileEditor.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ProfileSettingComponents.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="AuthentificationDlg.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtUic Include="AuthentificationDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="SliceProcessor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ContextMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommonWidgets.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ProgressHandler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PrintControl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="FileTransfer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommonMessages.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PreviewThumbnailDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="ViewerModule.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MeshLoader.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MeshModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ModelContainer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UIMode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommonDialog.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="PrintConfirm.h">
+      <Filter>Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="WebControl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PrintOptimum.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchPrinter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clipper.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="comb.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="floatpoint.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="infill.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="intpoint.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="pathOrderOptimizer.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonOptimizer.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stringcasecompare.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="timeEstimate.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileToConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="USBCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunicationInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snmpControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMatchList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfillVoxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linearAlg2D.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceProfileForCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CartridgeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDatasSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptopp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDataStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCodePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportEditPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCodeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintingInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCopier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModelCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexHullStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManipulatedFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManipulatorHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixGetter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MFSetConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVPMatrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingIdxManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFileUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaledFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TopCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomSurfaceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeBottomUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLBufferCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerColorPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerColorUIMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperimentalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testModel.stl" />
+    <None Include="testModel2.stl" />
+    <None Include="rodinp_ko.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="rodinp_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="rodinp_en.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_ko.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_zh.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_en.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="profile\DP200\list.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP201\list.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP201\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP200\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP201\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="Shader\outline.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\outline.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\phong.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\phong.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="profile\DP102\list.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP202\list.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="rodinp_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="rodinp_fr.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_es.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_fr.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="rodinp_ja.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_ja.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="profile\2X\list.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X DP303\list.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\machine_setting_value.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP102\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP200\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </None>
+    <None Include="profile\DP201\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP201\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP201\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP201\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP201\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </None>
+    <None Include="profile\DP202\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\DP202\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\LION2\list.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\machine_setting_value.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\F1 ECO\list.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\machine_setting_value.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\F1 ECO\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </None>
+    <None Include="profile\DP101\list.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\DP101\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\list.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\machine_setting_value.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="rodinp_de.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_de.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="profile\LION2X\list.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\1X\list.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\3DWOX 1\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\LION2\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\1X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\1X</Filter>
+    </None>
+    <None Include="profile\1X DP302\list.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\machine_setting_value.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\1X DP302\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </None>
+    <None Include="profile\5X\list.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\7X\list.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\2X</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\2X DP303\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\LION2X\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </None>
+    <None Include="profile\3DFF-222\list.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\machine_setting_value.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_fast_ASA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_fine_ASA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_normal_ASA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_silent_ASA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_value_ASA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\3DFF-222\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\DP103\list.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP103\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </None>
+    <None Include="profile\DP203\list.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\machine_setting_value.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\DP203\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_ABS_SIDE_A.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_ABS_SIDE_B.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ABS_SIDE_A.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ABS_SIDE_B.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\30X\list.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\machine_setting_value.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_ASA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_easy_normal_TPU.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_ABS_SIDE_A.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_ABS_SIDE_B.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_ASA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_setting_value_TPU.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\30X\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\30X</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\list.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\machine_setting_value.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS_SIDE_A.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS_SIDE_B.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\list.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\machine_setting_value.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fast_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_fine_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_normal_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_easy_silent_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_PVA.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_PVA+.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZCB.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZGF.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_setting_value_RZSU.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="profile\RIZE 2XC\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </None>
+    <None Include="rodinp_da.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="languages\rodinp_da.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="profile\MICHELAN-P\list.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\machine_setting_value.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_FLEX.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_FLEX.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_FLEX.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_FLEX.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_value_ETC.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_value_FLEX.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\MICHELAN-P\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fast_ASA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_fine_ASA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_normal_ASA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_easy_silent_ASA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fast_ASA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_fine_ASA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_normal_ASA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_easy_silent_ASA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ASA_SIDE_A.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ASA_SIDE_B.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA_SIDE_A.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA_SIDE_B.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\RIZE 7XC\profile_setting_value_ASA.ini">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\7X\profile_setting_value_ASA.ini">
+      <Filter>Profile Setting Files\7X</Filter>
+    </None>
+    <None Include="profile\5X\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\5X</Filter>
+    </None>
+    <None Include="profile\ST3DP1\list.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\machine_setting_value.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_fast_ABS.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_fast_PLA.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_fine_ABS.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_fine_PLA.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_normal_ABS.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_normal_PLA.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_silent_ABS.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_easy_silent_PLA.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_value_ABS.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_setting_value_PLA.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+    <None Include="profile\ST3DP1\profile_start_end_code.ini">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="profile\2X\profile_list.xml">
+      <Filter>Profile Setting Files\2X</Filter>
+    </Xml>
+    <Xml Include="profile\2X DP303\profile_list.xml">
+      <Filter>Profile Setting Files\2X DP303</Filter>
+    </Xml>
+    <Xml Include="profile\3DWOX 1\profile_list.xml">
+      <Filter>Profile Setting Files\3DWOX 1</Filter>
+    </Xml>
+    <Xml Include="profile\DP101\profile_list.xml">
+      <Filter>Profile Setting Files\DP101</Filter>
+    </Xml>
+    <Xml Include="profile\DP102\profile_list.xml">
+      <Filter>Profile Setting Files\DP102</Filter>
+    </Xml>
+    <Xml Include="profile\DP200\profile_list.xml">
+      <Filter>Profile Setting Files\DP200</Filter>
+    </Xml>
+    <Xml Include="profile\DP201\profile_list.xml">
+      <Filter>Profile Setting Files\DP201</Filter>
+    </Xml>
+    <Xml Include="profile\DP202\profile_list.xml">
+      <Filter>Profile Setting Files\DP202</Filter>
+    </Xml>
+    <Xml Include="profile\F1 ECO\profile_list.xml">
+      <Filter>Profile Setting Files\F1 ECO</Filter>
+    </Xml>
+    <Xml Include="profile\LION2\profile_list.xml">
+      <Filter>Profile Setting Files\LION2</Filter>
+    </Xml>
+    <Xml Include="profile\LION2X\profile_list.xml">
+      <Filter>Profile Setting Files\LION2X</Filter>
+    </Xml>
+    <Xml Include="profile\1X\profile_list.xml">
+      <Filter>Profile Setting Files\1X</Filter>
+    </Xml>
+    <Xml Include="profile\1X DP302\profile_list.xml">
+      <Filter>Profile Setting Files\1X DP302</Filter>
+    </Xml>
+    <Xml Include="profile\5X\profile_list.xml">
+      <Filter>Profile Setting Files\5X</Filter>
+    </Xml>
+    <Xml Include="profile\7X\profile_list.xml">
+      <Filter>Profile Setting Files\7X</Filter>
+    </Xml>
+    <Xml Include="profile\3DFF-222\profile_list.xml">
+      <Filter>Profile Setting Files\3DFF-222</Filter>
+    </Xml>
+    <Xml Include="profile\DP103\profile_list.xml">
+      <Filter>Profile Setting Files\DP103</Filter>
+    </Xml>
+    <Xml Include="profile\DP203\profile_list.xml">
+      <Filter>Profile Setting Files\DP203</Filter>
+    </Xml>
+    <Xml Include="profile\30X\profile_list.xml">
+      <Filter>Profile Setting Files\30X</Filter>
+    </Xml>
+    <Xml Include="profile\RIZE 7XC\profile_list.xml">
+      <Filter>Profile Setting Files\RIZE 7XC</Filter>
+    </Xml>
+    <Xml Include="profile\RIZE 2XC\profile_list.xml">
+      <Filter>Profile Setting Files\RIZE 2XC</Filter>
+    </Xml>
+    <Xml Include="profile\MICHELAN-P\profile_list.xml">
+      <Filter>Profile Setting Files\MICHELAN-P</Filter>
+    </Xml>
+    <Xml Include="profile\ST3DP1\profile_list.xml">
+      <Filter>Profile Setting Files\ST3DP1</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rodinP.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="PreviewThumbnailDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommonDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PrintConfirm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<profiles>
+  <standard>
+    <profile>
+      <name>Standard PLA</name>
+      <description>Standard PLA</description>
+      <fileLocation>profile_setting_value_PLA.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>Standard ABS</name>
+      <description>Standard ABS</description>
+      <fileLocation>profile_setting_value_ABS.ini</fileLocation>
+    </profile>
+    <profile>
+      <name>ETC</name>
+      <description>ETC</description>
+      <fileLocation>profile_setting_value_ETC.ini</fileLocation>
+      <visible>N</visible>
+    </profile>
+  </standard>
+</profiles>
