@@ -317,7 +317,6 @@ xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configu
     <ClCompile Include="GCodeParser.cpp" />
     <ClCompile Include="GCodePath.cpp" />
     <ClCompile Include="Generals.cpp" />
-    <ClCompile Include="GitTest.cpp" />
     <ClCompile Include="InfillVoxel.cpp" />
     <ClCompile Include="LayerColorPlane.cpp" />
     <ClCompile Include="LayerColorUIMode.cpp" />
@@ -478,7 +477,6 @@ xcopy /d /Y "$(ProjectDir)Mesh" "$(SolutionDir)OutputFiles\$(Platform)\$(Configu
     <ClInclude Include="GCodeParser.h" />
     <ClInclude Include="GCodePath.h" />
     <ClInclude Include="Generals.h" />
-    <ClInclude Include="GitTest.h" />
     <ClInclude Include="LayerColorPlane.h" />
     <ClInclude Include="LayerColorUIMode.h" />
     <ClInclude Include="LayerDatasSet.h" />
