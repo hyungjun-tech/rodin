@@ -496,6 +496,9 @@
     <ClCompile Include="ExperimentalFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="rodinP.h">
@@ -969,6 +972,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ExperimentalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GitTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
