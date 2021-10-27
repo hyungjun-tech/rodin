@@ -13,6 +13,10 @@ int in_func() {
 		i = i + 2;
 	}
 }
+// revert test fucntion 
+int revert_test() {
+	return 0;
+}
 int GitTest() {
 	in_func();
 	return 0;
