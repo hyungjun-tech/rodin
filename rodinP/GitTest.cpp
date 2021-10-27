@@ -1,7 +1,7 @@
 #incldue <stdafx.h>
 #include <GitTest.h>
 // This  File is Test
-
+// 주석 추가 테스트 및 revert 테스트 
 // 조건 변경 
 int in_func() {
 	for (int i = 0; i < 100; ) {
