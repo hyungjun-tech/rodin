@@ -1,7 +1,7 @@
 #incldue <stdafx.h>
 #include <GitTest.h>
 // This  File is Test
-
+// 주석을 잘못 달았네요.. 이게 맞는 것임. 
 // 조건 변경 
 int in_func() {
 	for (int i = 0; i < 100; ) {
