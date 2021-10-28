@@ -25,3 +25,7 @@ int brach_test2() {
 	// 이것은 브랜치 테스트 함수 2입니다. 
 	return 0;
 }
+int branch_test3_sinji() {
+	// 이것은 브랜치 테스트 함수 3입니다. 
+	return 0;
+}
