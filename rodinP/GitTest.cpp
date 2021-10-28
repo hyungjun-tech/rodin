@@ -18,6 +18,10 @@ int GitTest() {
 	return 0;
 }
 int branch_test() {
-	// 이것은 브낸치 테스트 함수 입니다. 
+	// 이것은 브랜치 테스트 함수 입니다. 
+	return 0;
+}
+int brach_test2() {
+	// 이것은 브랜치 테스트 함수 2입니다. 
 	return 0;
 }
