@@ -17,3 +17,7 @@ int GitTest() {
 	in_func();
 	return 0;
 }
+int branch_test() {
+	// 이것은 브낸치 테스트 함수 입니다. 
+	return 0;
+}
