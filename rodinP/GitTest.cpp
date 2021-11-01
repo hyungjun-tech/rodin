@@ -29,3 +29,6 @@ int branch_test3_sinji() {
 	// 이것은 브랜치 테스트 함수 3입니다. 
 	return 0;
 }
+int fork_test() {
+	// 이것은 포크 테스트 입니다.
+}
